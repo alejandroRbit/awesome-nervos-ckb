@@ -38,9 +38,9 @@ Tools included in this section are either complete or in development and on-trac
 - [CKB Studio](https://www.obsidians.io/)
 
 ### SDKs
-- [JavaScript SDK]
-- [JavaScript Toolkit] and [JavaScript Toolkit Addons]
-- [Ruby SDK]
+- [JavaScript SDK](https://github.com/nervosnetwork/ckb-sdk-js)
+- [JavaScript Toolkit](https://github.com/xxuejie/ckb-js-toolkit) and [JavaScript Toolkit Addons](https://github.com/xxuejie/ckb-js-toolkit-contrib)
+- [Ruby SDK](https://github.com/nervosnetwork/ckb-sdk-ruby)
 
 ### Wallets
 - [Neuron -- Production]
@@ -48,20 +48,20 @@ Tools included in this section are either complete or in development and on-trac
 
 
 ### Frameworks
-- [Muta: Framework for Building Layer 2 Chains]
+- [Muta: Framework for Building Layer 2 Chains](https://github.com/nervosnetwork/muta)
 - [Lumos: Fully Features JS/TS Dapp Framework -- TBA]
 - [Capsule: Framework for Developing CKB Contracts -- TBA]
 
 ### Other
-- Animagus
-- CKB-CLI
+- [Animagus](https://github.com/xxuejie/animagus)
+- [Mandrake: Animagus GUI](https://github.com/nervosnetwork/mandrake)
 - [Polyjuice -- Ethereum on Nervos CKB]
 
 
 ### From Ecosystem Grants
-- ABC Wallet's Web Auth SDK -- In Development
-- Synapse Browser Wallet -- In Development
-- CKB PW: Any Address is a CKB Address -- In Development
+- [ABC Wallet's Web Auth SDK -- In Development](https://talk.nervos.org/t/abc-wallet-another-ckb-sdk-and-ckb-web-auth/4285/2)
+- [Synapse Browser Wallet -- In Development](https://talk.nervos.org/t/synapse-browser-wallet-and-keyper-agency/4339/3)
+- [CKB PW: Any Address is a CKB Address -- In Development](https://talk.nervos.org/t/lay2-pw-sdk-build-dapps-on-ckb-and-run-them-everywhere/4289/12)
 
 ### On Chain Scripts or Smart Contracts
 - System Scripts
