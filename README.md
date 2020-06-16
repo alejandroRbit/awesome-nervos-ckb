@@ -32,7 +32,6 @@ A collection of Nervos CKB Resources
 
 
 ## Tools
-Tools included in this section are either complete or in development and on-track for production use. Tools that are more experimental, pedagogical, or demonstrative in nature are included in the [Experimental Tools](#experimental) section. If the tool is listed without the "-- In Development" flag, then it is usable today. To determine the state of a tool, its readiness, and its purpose, please visit its page.
 
 ### IDEs
 - [CKB Studio](https://www.obsidians.io/)
@@ -43,14 +42,14 @@ Tools included in this section are either complete or in development and on-trac
 - [Ruby SDK](https://github.com/nervosnetwork/ckb-sdk-ruby)
 
 ### Wallets
-- [Neuron -- Production]
+- [Neuron](https://github.com/nervosnetwork/neuron)
 
 
 
 ### Frameworks
 - [Muta: Framework for Building Layer 2 Chains](https://github.com/nervosnetwork/muta)
-- [Lumos: Fully Features JS/TS Dapp Framework -- TBA]
-- [Capsule: Framework for Developing CKB Contracts -- TBA]
+- [Lumos: Fully Features JS/TS Dapp Framework](https://github.com/nervosnetwork/lumos)
+- [Capsule: Framework for Developing CKB Contracts](https://github.com/nervosnetwork/capsule)
 
 ### Other
 - [Animagus](https://github.com/xxuejie/animagus)
@@ -63,44 +62,44 @@ Tools included in this section are either complete or in development and on-trac
 - [Synapse Browser Wallet -- In Development](https://talk.nervos.org/t/synapse-browser-wallet-and-keyper-agency/4339/3)
 - [CKB PW: Any Address is a CKB Address -- In Development](https://talk.nervos.org/t/lay2-pw-sdk-build-dapps-on-ckb-and-run-them-everywhere/4289/12)
 
-### On Chain Scripts or Smart Contracts
-- System Scripts
-- Miscellanneous Scripts (User Defined Token, HTLC, Dynamic Linking)
-- DCKB: Wrapper Token for DAO Deposited CKBytes
-- Anyone Can Pay: A lock script allowing people to send you tokens
-- Type ID: Allow Upgrades without Breaking Reference Integrity
+### On Chain Scripts & Protocols
+- [System Scripts](https://github.com/nervosnetwork/ckb-system-scripts)
+- [Miscellanneous Scripts (User Defined Token, HTLC, Dynamic Linking)](https://github.com/nervosnetwork/ckb-miscellaneous-scripts)
+- [DCKB: Wrapper Token for DAO Deposited CKBytes](https://github.com/jjyr/DCKB)
+- [Anyone Can Pay: A lock script allowing people to send you tokens](https://github.com/nervosnetwork/ckb-anyone-can-pay)
+- [Growfi: Token Swap](https://talk.nervos.org/t/growfi-udt-swap/4382/8)
 
 
 
-### Experimental
-Cool and fun experimental projects. May or may not be meant for production use (refer to their READMEs for their specific status). These include various demos, side projects, or early & experimental tools. Projects from community members and foundation members are included.
+
+### Experimental Projects & Demos
 
 - [GodWoken: Programmable Account Layer on Top of CKB](https://github.com/jjyr/godwoken)
 - [CKB Simple Account Layer](https://github.com/xxuejie/ckb-simple-account-layer)
-- [Keyper Bridge: Easily Communicate between Keyper Wallets and Dapps]
-- [Keyper Web Wallet: Iframe, Web Worker Based Wallet for Dapps]
-- [Keyper: Ownership Layer for CKB]
+- [Keyper - Ownership Layer for CKB](https://github.com/ququzone/keyper)
+
 
 
 ## Dapps
 ### Tutorials
-- [CKB Script Programming Series - ongoing]
-- [Build a Token on CKB Series - ongoing]
-- [Working with CKB Studio Series - ongoing]
+- [CKB Script Programming Series](https://xuejie.space/)
+- [Token Development & CKB Programming Model](https://www.tannrallard.tech/nft-on-ckb-part-1/)
+- [Working with CKB Studio Series](https://medium.com/nervos-ckb-israel)
 
 
-### Toy Examples
-Non-production grade (at this time, at least) examples of fullstack dapps. These projects may have some overlap with the experimental projects listed in the projects section, though the difference here is that these are dapps rather than tools or libraries. These dapps are usually either side-projects for fun, projects that are used for teaching, or projects that have come out of a hackathon.
-- [Gringotts: Token Renting]
-- [Token Mint: Issue Tokens in Browser]
+### Example Dapps
+- [Gringotts: Token Renting](https://github.com/ashchan/gringotts)
+- [Token Mint: Issue Tokens in Browser](https://github.com/WilfredTA/token_mint)
+
+
 
 ## Tokens and Assets
 
 ### Standards
-- [Simple User Defined Token Standard]
+- [Simple User Defined Token Standard (SUDT)](https://talk.nervos.org/t/rfc-simple-udt-draft-spec/4333/4)
 
 ### Contracts
-- [SUDT Script] 
+- [SUDT Script](https://github.com/nervosnetwork/ckb-miscellaneous-scripts/blob/master/c/simple_udt.c) 
 
 
 
