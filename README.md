@@ -8,12 +8,9 @@ A collection of Nervos CKB Resources
   - [SDKs](#sdks)
   - [Wallets](#wallets)
   - [Frameworks](#frameworks)
-  - [From Ecosystem](#from-ecosystem)
-  - [Smart Contracts](#on-chain-scripts-or-smart-contracts)
-- [Projects](#projects)
-  - [In Development](#in-development)
-  - [Production](#production)
-  - [Experimental](#experimental)
+  - [From Ecosystem](#from-ecosystem-grants)
+  - [Smart Contracts](#on-chain-scripts-and-protocols)
+- [Projects & Demos](#experimental-projects-and-demos)
 - [Dapps](#dapps)
   - [Tutorials](#tutorials)
   - [Examples](#examples)
@@ -62,7 +59,7 @@ A collection of Nervos CKB Resources
 - [Synapse Browser Wallet -- In Development](https://talk.nervos.org/t/synapse-browser-wallet-and-keyper-agency/4339/3)
 - [CKB PW: Any Address is a CKB Address -- In Development](https://talk.nervos.org/t/lay2-pw-sdk-build-dapps-on-ckb-and-run-them-everywhere/4289/12)
 
-### On Chain Scripts & Protocols
+### On Chain Scripts and Protocols
 - [System Scripts](https://github.com/nervosnetwork/ckb-system-scripts)
 - [Miscellanneous Scripts (User Defined Token, HTLC, Dynamic Linking)](https://github.com/nervosnetwork/ckb-miscellaneous-scripts)
 - [DCKB: Wrapper Token for DAO Deposited CKBytes](https://github.com/jjyr/DCKB)
