@@ -103,7 +103,7 @@ A collection of Nervos CKB Resources
 
 
 
-## Community & Social
+## Community and Social
 ### Get Answers
 - Nervos Forums
 - Youtube
