@@ -83,6 +83,7 @@ A collection of Nervos CKB Resources.
 - [Unipass. A multi-chain unified crypto identity and your universal passport to crypto world and metaverse](https://docs.unipass.id/)
     -  [Lay2dev's Github. Unipass and PW-SDK developers](https://github.com/orgs/lay2dev/repositories)
 - [Mibao. NFT Marketplace](https://github.com/orgs/nervina-labs/repositories)
+- [Decentralized Account Systems DAS](https://github.com/DeAccountSystems)
 - Nervos Hackathon: Broaden the Spectrum Projects:
     - [CrowdMint by niklr. A blockchain based solution leveraging NFTs to crowdfund community projects](https://github.com/niklr/crowdmint)
     - [Insure Defi by chaitanyasjoshi. Offers collateral protection insurance for crypto-backed loans](https://github.com/chaitanyasjoshi/nervos-insure)
@@ -92,6 +93,7 @@ A collection of Nervos CKB Resources.
     - [NolayReading. Pay for Reading NFT by pandatea](https://github.com/nolaytech/NolayReading)
     - [Backable by luisantoniocrag. A decentralized and collateralized stablecoin protocol with a value pegged to the US dollar on the Nervos network](https://github.com/Backable)
     - [Nervos Hackathon Dex by fsy412](https://github.com/fsy412/Nervos-Hackathon-Dex)
+    - [Nerbot by x777. The Nerbot is a telegram NFT marketplace bot for the Nervos Network blockchain](https://github.com/x777/Nerbot)
 
 ### On-Chain Scripts and Protocols
 - [Anyone Can Pay: A lock script that allows cells to accept tokens from anyone](https://github.com/nervosnetwork/ckb-anyone-can-pay)
