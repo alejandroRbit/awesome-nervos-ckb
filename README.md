@@ -50,8 +50,7 @@ A collection of Nervos CKB Resources.
 - [CKB Python Toolkit](https://github.com/duanyytop/ckb-python-toolkit)
 - [Python SDK. Not an official SDK. The project is still in an early stage. Unstable](https://github.com/doitian/ckb-sdk-python)
 - [CKB Kotlin SDK](https://github.com/BlueWatson/ckb-sdk-kotlin)
-- [CKB Swift Kit](https://github.com/duanyytop/ckb-swift-kit)
-- [CKB Swift SDK](https://github.com/xiaoluSF/ckb-sdk-swift)
+- [CKB Swift Kit](https://github.com/duanyytop/ckb-swift-kit) and [CKB Swift SDK](https://github.com/xiaoluSF/ckb-sdk-swift)
 
 ### Wallets
 - [Neuron](https://github.com/nervosnetwork/neuron)
