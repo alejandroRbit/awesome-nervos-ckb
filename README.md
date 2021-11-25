@@ -56,10 +56,15 @@ A collection of Nervos CKB Resources.
 - [Neuron](https://github.com/nervosnetwork/neuron)
 
 ### Frameworks
+- [GodWoken: Programmable Account Layer on Top of Nervos CKB](https://github.com/jjyr/godwoken)
+    - [Godwoken Examples](https://github.com/nervosnetwork/godwoken-examples)
+    - [Godwoken SDK JS](https://github.com/nervosnetwork/godwoken-js-sdk)
+    - [Godwoken-Polyjuice compatible providers for ethereum library like ethers and web3js.](https://github.com/nervosnetwork/polyjuice-provider)
 - [Muta: A Framework for Building Layer 2 Chains](https://github.com/nervosnetwork/muta)
     - [Muta SDK Rust](https://github.com/nervosnetwork/muta-sdk-rust)
     - [Muta SDK JS/TS](https://github.com/nervosnetwork/muta-sdk-js)
     - [Muta SDK Java](https://github.com/nervosnetwork/muta-sdk-java)
+    - [Drone. Standard Tooling for Muta framework](https://github.com/nervosnetwork/drone)
 - [Lumos: Full Featured Dapp Framework for Javascript/Typescript](https://github.com/nervosnetwork/lumos)
 - [Capsule: Framework for Developing CKB Contracts in Rust](https://github.com/nervosnetwork/capsule)
 - [Tentacle: A multiplexed p2p network framework that supports custom protocols](https://github.com/nervosnetwork/tentacle)
@@ -67,14 +72,26 @@ A collection of Nervos CKB Resources.
 ### Ecosystem Projects
 - [ABC Wallet: Web Auth SDK -- In Development](https://talk.nervos.org/t/abc-wallet-another-ckb-sdk-and-ckb-web-auth/4285/2)
 - [Synapse: Wallet Browser Extension -- In Development](https://talk.nervos.org/t/synapse-browser-wallet-and-keyper-agency/4339/3)
-- [PW-SDK: An interoperability dApp framework. Allow wallets designed for other chains to be used on Nervos](https://talk.nervos.org/t/lay2-pw-sdk-build-dapps-on-ckb-and-run-them-everywhere/4289/12) // [Documentation Gitbook](https://docs.lay2.dev/pw-sdk/)
+    - [Synapse Extension Github](https://github.com/rebase-network/synapse-extension)
+- [PW-SDK: An interoperability dApp framework. Allow wallets designed for other chains to be used on Nervos](https://talk.nervos.org/t/lay2-pw-sdk-build-dapps-on-ckb-and-run-them-everywhere/4289/12)
+    - [Documentation Gitbook](https://docs.lay2.dev/pw-sdk/)
 - [ZKP-Toolkit-CKB: A Zero Knowledge Proof Toolkit for CKB -- In Development](https://talk.nervos.org/t/secbit-labs-zkp-toolkit-ckb-a-zero-knowledge-proof-toolkit-for-ckb/4254/1)
-- [SUMMA: Bitcoin-SPV. A set of libraries for working with Bitcoin from other chains](https://talk.nervos.org/t/summa-bitcoin-spv-utils/4162) // [Bitcoin SPV C code for Nervos Github](https://github.com/summa-tx/bitcoin-spv/tree/master/c)
+- [SUMMA: Bitcoin-SPV. A set of libraries for working with Bitcoin from other chains](https://talk.nervos.org/t/summa-bitcoin-spv-utils/4162)
+    - [Bitcoin SPV C code for Nervos Github](https://github.com/summa-tx/bitcoin-spv/tree/master/c)
 - [Trampoline: Fullstack development framework for UTXO-based dapps on Nervos Network. Early-stage, pre-alpha development](https://github.com/WilfredTA/trampoline-rs)
-- [NolayReading. Pay for Reading by NFT](https://github.com/nolaytech/NolayReading)
 - [YokaiSwap. First Cross-chain DEX AMM on Nervos](https://github.com/YokaiSwap)
-- [Unipass. A multi-chain unified crypto identity and your universal passport to crypto world and metaverse](https://docs.unipass.id/) // [Lay2dev's Github. Unipass and PW-SDK developers](https://github.com/orgs/lay2dev/repositories)
+- [Unipass. A multi-chain unified crypto identity and your universal passport to crypto world and metaverse](https://docs.unipass.id/)
+    -  [Lay2dev's Github. Unipass and PW-SDK developers](https://github.com/orgs/lay2dev/repositories)
 - [Mibao. NFT Marketplace](https://github.com/orgs/nervina-labs/repositories)
+- Nervos Hackathon: Broaden the Spectrum Projects:
+    - [CrowdMint by niklr. A blockchain based solution leveraging NFTs to crowdfund community projects](https://github.com/niklr/crowdmint)
+    - [Insure Defi by chaitanyasjoshi. Offers collateral protection insurance for crypto-backed loans](https://github.com/chaitanyasjoshi/nervos-insure)
+    - [Fomaj by irshadnilam. Formaj is a risk-free prediction marketing inspired by PoolTogether and Pancakeswap Predictions](https://github.com/fomaj)
+    - [Godwoken Balance Tracker by nicoderpro](https://github.com/NiCoderPro/godwoken_tracker)
+    - [LinoB Vault by jpeterd. A platform that offers users a way to stabilize value on the Nervos Layer 2 chain using the LinoB USD pegged stablecoin](https://github.com/LinoB-Vault/LinoB-Vault-Main)
+    - [NolayReading. Pay for Reading NFT by pandatea](https://github.com/nolaytech/NolayReading)
+    - [Backable by luisantoniocrag. A decentralized and collateralized stablecoin protocol with a value pegged to the US dollar on the Nervos network](https://github.com/Backable)
+    - [Nervos Hackathon Dex by fsy412](https://github.com/fsy412/Nervos-Hackathon-Dex)
 
 ### On-Chain Scripts and Protocols
 - [Anyone Can Pay: A lock script that allows cells to accept tokens from anyone](https://github.com/nervosnetwork/ckb-anyone-can-pay)
@@ -83,6 +100,7 @@ A collection of Nervos CKB Resources.
 - [DCKB: Wrapper Token for DAO Deposited CKBytes](https://github.com/jjyr/DCKB)
 - [Growfi: On-chain User Defined Token Swap](https://talk.nervos.org/t/growfi-udt-swap/4382/8)
 - [Miscellanneous Scripts (Simple User Defined Token, HTLC, Dynamic Linking)](https://github.com/nervosnetwork/ckb-miscellaneous-scripts)
+- [On-chain scripts of Godwoken project](https://github.com/nervosnetwork/godwoken-scripts)
 
 ### NFT Resources
 - [RFC: CKB NFT (Draft Spec). Token Development & CKB Programming Model](https://talk.nervos.org/t/rfc-ckb-nft-draft-spec/4779)
@@ -90,7 +108,7 @@ A collection of Nervos CKB Resources.
 - [Compact Extension for m-NFT Protocol: The Key to Mass Adoption](https://talk.nervos.org/t/compact-extension-for-m-nft-protocol-the-key-to-mass-adoption/6249)
     - [Compact m-NFT. A compact m-NFT contract for Nervos CKB](https://github.com/xcshuan/compact-mNFT)
     - [The sparse merkle tree data structure of compact-NFT](https://github.com/nervina-labs/compact-nft-smt)
-     - [Example of CKB NFT SMT](https://github.com/duanyytop/nft-smt-example)
+    - [Example of CKB NFT SMT](https://github.com/duanyytop/nft-smt-example)
 - [CKB NFT Toolkit. A toolkit who provides methods to create, transfer, update and destroy issuer cells, class cells and NFT cells of Nervos CKB](https://github.com/duanyytop/ckb-nft-toolkit)
 - [CKB NFT Extension](https://github.com/duanyytop/ckb-nft-extension)
 - [Dynamic Interation Extension for m-NFT Protocol](https://talk.nervos.org/t/dynamic-interaction-extension-for-m-nft-protocol/6063)
@@ -101,19 +119,21 @@ A collection of Nervos CKB Resources.
 
 ### Experimental Projects and Demos
 - [CKB Simple Account Layer](https://github.com/xxuejie/ckb-simple-account-layer)
-- [GodWoken: Programmable Account Layer on Top of Nervos CKB](https://github.com/jjyr/godwoken)
-    - [Godwoken Examples](https://github.com/nervosnetwork/godwoken-examples)
-    - [Godwoken SDK JS](https://github.com/nervosnetwork/godwoken-js-sdk)
 - [Keyper: Ownership Layer for Managing Lockscripts on Nervos CKB](https://github.com/ququzone/keyper)
 - [CKB NFT Kabletop](https://github.com/duanyytop/ckb-nft-kabletop)
 
 ### Other
 - [One-click way to create testnet and mainnet layer 2 accounts using MetaMask](https://dev.ckb.tools/create-layer2-account)
 - [Animagus: An accounting layer for Nervos](https://github.com/xxuejie/animagus)
+    - [Mandrake: A GUI for Animagus](https://github.com/nervosnetwork/mandrake)
 - [CKB Explorer: A Nervos blockchain explorer](https://explorer.nervos.org/)
 - [CKB UDT CLI: Command line tool to create SUDT tokens](https://github.com/ququzone/ckb-udt-cli)
-- [Mandrake: A GUI for Animagus](https://github.com/nervosnetwork/mandrake)
 - [Molecule: A serialization library for Rust](https://github.com/nervosnetwork/molecule)
+- [Mercury. Building on top of ckb-indexer, Mercury provides handy integration features for Nervos CKB.](https://github.com/nervosnetwork/mercury)
+- [Force Bridge. Can connect to all chains which support multiple signature account and Non-fungible token transfer](https://github.com/nervosnetwork/force-bridge)
+    - [Force Bridge User Interface](https://github.com/nervosnetwork/force-bridge-ui)
+    - [Force Bridge ETH](https://github.com/nervosnetwork/force-bridge-eth)
+- [Tippy One click CKB devnet. Tippy is pre-built as self-contained .Net Core application.](https://github.com/nervosnetwork/tippy)
 - [Polyjuice: An Ethereum compatible account layer for Nervos](https://github.com/nervosnetwork/polyjuice)
 
 
