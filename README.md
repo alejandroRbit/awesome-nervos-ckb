@@ -52,7 +52,7 @@ A collection of Nervos CKB Resources.
 - [Python SDK. Not an official SDK. The project is still in an early stage. Unstable](https://github.com/doitian/ckb-sdk-python)
 - [CKB Kotlin SDK](https://github.com/BlueWatson/ckb-sdk-kotlin)
 - [CKB Swift Kit](https://github.com/duanyytop/ckb-swift-kit) and [CKB Swift SDK](https://github.com/xiaoluSF/ckb-sdk-swift)
-- [Lua on CKB VM. Use Lua to Develop CKB Script](https://github.com/muxueqz/ckb_lua) and [Nim on CKB VM](https://github.com/muxueqz/ckb-nim). Both very early stage, seems abandoned.
+- [Lua on CKB VM. Use Lua to Develop CKB Script](https://github.com/muxueqz/ckb_lua) and [Nim on CKB VM](https://github.com/muxueqz/ckb-nim). Not offical. Both very early stage.
 
 ### Wallets
 - [Neuron](https://github.com/nervosnetwork/neuron)
@@ -129,22 +129,22 @@ A collection of Nervos CKB Resources.
 ### Experimental Projects and Demos
 - [CKB Simple Account Layer](https://github.com/xxuejie/ckb-simple-account-layer)
 - [Keyper: Ownership Layer for Managing Lockscripts on Nervos CKB](https://github.com/ququzone/keyper)
+- [This is a demo code for mass key management of CKB addresses.](https://github.com/CipherWang/ckb-address-manager)
 - [CKB NFT Kabletop](https://github.com/duanyytop/ckb-nft-kabletop)
 - [Minimal CKB Sudt Dapp Demo](https://github.com/huwenchao/ckb-sudt-dapp-demo)
-- [Godwoken Uniswap Example](https://github.com/huwenchao/godwoken-uniswap-example)
 - [A simplified ETH bridge contract demo to show how to mint SUDT on CKB](https://github.com/huwenchao/mint-sudt-demo)
-- [This is a simple example to show how to use CKB crates in C via FFI](https://github.com/jjyr/ckb-ffi)
 - [Nervos Layer 2 EVM bridged token transfer demo](https://github.com/Kuzirashi/polyjuice-sudt-proxy-transfer)
+- [This is a simple example to show how to use CKB crates in C via FFI](https://github.com/jjyr/ckb-ffi)
 - [Simple voting system on Nervos CKB](https://github.com/Kuzirashi/ckb-voting)
 - [Simplest CKB dApp with pw-core adopted](https://github.com/lay2dev/simplestdapp)
 - [Godwoken Polyjuice Compatibility Examples. Deploy Ethereum contracts (with compatibility modifications) to Nervos's Godwoken Polyjuice and interact with them using Ethereum toolchain.](https://github.com/honestgoing/godwoken-polyjuice-compatibility-examples)
+- [Deploy Pancakeswap contracts to Godwoken](https://github.com/honestgoing/pancakeswap-contracts-godwoken)
+- [Godwoken Uniswap Example](https://github.com/huwenchao/godwoken-uniswap-example)
 - [Orange Wallet: Nervos CKB Wallet for Android & iOS. Build with Flutter](https://github.com/OrangeWallet)
     - [Generate CKB HD Wallet: A simple usage example](https://github.com/BaojunCZ/ckb_generate_hd)
-- [Liquidable NervosDAO Contract.  Contains the code of a capsule project for liquidable DAO dapp's smart contract](https://github.com/RetricSu/liquidable-nervos-dao-contract)
 - [CKB Saifu. CKB wallet for minimalist using Swift. Abandoned](https://github.com/ashchan/ckb-saifu)
 - [A Swift package wrapping the modified blake2b C lib for CKB](https://github.com/ashchan/ckb-swift-blake2b)
-- [Deploy Pancakeswap contracts to Godwoken](https://github.com/honestgoing/pancakeswap-contracts-godwoken)
-- [This is a demo code for mass key management of CKB addresses.](https://github.com/CipherWang/ckb-address-manager)
+- [Liquidable NervosDAO Contract.  Contains the code of a capsule project for liquidable DAO dapp's smart contract](https://github.com/RetricSu/liquidable-nervos-dao-contract)
 
 ### Oracles
 - [Chainlink Oracles on Nervos Layer 2. A simple implementation of some of the Chainlink contracts on Nervos. This repository is using Ether.js + Hardhat + Typechain + TypeScript](https://github.com/Kuzirashi/chainlink-nervos)
@@ -180,6 +180,7 @@ A collection of Nervos CKB Resources.
 - [Developer Training Course. Best place to start learning about Layer 1 code development](https://nervos.gitbook.io/developer-training-course/)
 - [Godwoken Gitbook Guide: a optimistic rollup solution build upon Nervos CKB](https://docs.godwoken.io/)
 - [Layer 2 EVM (Ethereum Virtual Machine) Training. Tasks from Nervos Hackaton DeFi](https://nervos.gitbook.io/layer-2-evm/)
+    - [Video: Learn Blockchain Development and get PAID per Task from Nervos Hackaton DeFi](https://www.youtube.com/watch?v=5tK2s_rWA7c)
 - [Working with CKB Studio Series](https://medium.com/nervos-ckb-israel)
 - VideoTutorials
     - [Video: Porting Your First EVM Solidity Application To Nervos Blockchain](https://www.youtube.com/watch?v=5GLX2i2bK_0)
