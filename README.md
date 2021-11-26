@@ -52,6 +52,7 @@ A collection of Nervos CKB Resources.
 - [Python SDK. Not an official SDK. The project is still in an early stage. Unstable](https://github.com/doitian/ckb-sdk-python)
 - [CKB Kotlin SDK](https://github.com/BlueWatson/ckb-sdk-kotlin)
 - [CKB Swift Kit](https://github.com/duanyytop/ckb-swift-kit) and [CKB Swift SDK](https://github.com/xiaoluSF/ckb-sdk-swift)
+- [Lua on CKB VM. Use Lua to Develop CKB Script](https://github.com/muxueqz/ckb_lua) and [Nim on CKB VM](https://github.com/muxueqz/ckb-nim). Both very early stage, seems abandoned.
 
 ### Wallets
 - [Neuron](https://github.com/nervosnetwork/neuron)
@@ -142,6 +143,8 @@ A collection of Nervos CKB Resources.
 - [Liquidable NervosDAO Contract.  Contains the code of a capsule project for liquidable DAO dapp's smart contract](https://github.com/RetricSu/liquidable-nervos-dao-contract)
 - [CKB Saifu. CKB wallet for minimalist using Swift. Abandoned](https://github.com/ashchan/ckb-saifu)
 - [A Swift package wrapping the modified blake2b C lib for CKB](https://github.com/ashchan/ckb-swift-blake2b)
+- [Deploy Pancakeswap contracts to Godwoken](https://github.com/honestgoing/pancakeswap-contracts-godwoken)
+- [This is a demo code for mass key management of CKB addresses.](https://github.com/CipherWang/ckb-address-manager)
 
 ### Oracles
 - [Chainlink Oracles on Nervos Layer 2. A simple implementation of some of the Chainlink contracts on Nervos. This repository is using Ether.js + Hardhat + Typechain + TypeScript](https://github.com/Kuzirashi/chainlink-nervos)
