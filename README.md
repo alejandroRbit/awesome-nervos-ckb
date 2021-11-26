@@ -52,7 +52,7 @@ A collection of Nervos CKB Resources.
 - [Python SDK. Not an official SDK. The project is still in an early stage. Unstable](https://github.com/doitian/ckb-sdk-python)
 - [CKB Kotlin SDK](https://github.com/BlueWatson/ckb-sdk-kotlin)
 - [CKB Swift Kit](https://github.com/duanyytop/ckb-swift-kit) and [CKB Swift SDK](https://github.com/xiaoluSF/ckb-sdk-swift)
-- [Lua on CKB VM. Use Lua to Develop CKB Script](https://github.com/muxueqz/ckb_lua) and [Nim on CKB VM](https://github.com/muxueqz/ckb-nim). Not offical. Both very early stage.
+- [Lua on CKB VM. Use Lua to Develop CKB Script](https://github.com/muxueqz/ckb_lua) and [Nim on CKB VM](https://github.com/muxueqz/ckb-nim). Not official. Both very early stage.
 
 ### Wallets
 - [Neuron](https://github.com/nervosnetwork/neuron)
@@ -62,6 +62,8 @@ A collection of Nervos CKB Resources.
     - [Godwoken Examples](https://github.com/nervosnetwork/godwoken-examples)
     - [Godwoken SDK JS](https://github.com/nervosnetwork/godwoken-js-sdk)
     - [Godwoken-Polyjuice compatible providers for ethereum library like ethers and web3js.](https://github.com/nervosnetwork/polyjuice-provider)
+    - [Godwoken Polyjuice Compatibility Examples. Deploy Ethereum contracts (with compatibility modifications) to Nervos's Godwoken Polyjuice and interact with them using Ethereum toolchain.](https://github.com/honestgoing/godwoken-polyjuice-compatibility-examples)
+    - [Godwoken Uniswap Example](https://github.com/huwenchao/godwoken-uniswap-example)
 - [Muta: A Framework for Building Layer 2 Chains](https://github.com/nervosnetwork/muta)
     - [Muta SDK Rust](https://github.com/nervosnetwork/muta-sdk-rust)
     - [Muta SDK JS/TS](https://github.com/nervosnetwork/muta-sdk-js)
@@ -89,6 +91,8 @@ A collection of Nervos CKB Resources.
     -  [Lay2dev's Github. Unipass and PW-SDK developers](https://github.com/orgs/lay2dev/repositories)
 - [Mibao. NFT Marketplace](https://github.com/orgs/nervina-labs/repositories)
 - [Decentralized Account Systems DAS](https://github.com/DeAccountSystems)
+- [NexisDAO](https://github.com/NexisDao/NexisDao-core)
+    - [NexisDAO Gitbook Documentation](https://doc.nexisdao.com/v/)
 - Nervos Hackathon: Broaden the Spectrum Projects:
     - [CrowdMint by niklr. A blockchain based solution leveraging NFTs to crowdfund community projects](https://github.com/niklr/crowdmint)
     - [Insure Defi by chaitanyasjoshi. Offers collateral protection insurance for crypto-backed loans](https://github.com/chaitanyasjoshi/nervos-insure)
@@ -130,16 +134,16 @@ A collection of Nervos CKB Resources.
 - [CKB Simple Account Layer](https://github.com/xxuejie/ckb-simple-account-layer)
 - [Keyper: Ownership Layer for Managing Lockscripts on Nervos CKB](https://github.com/ququzone/keyper)
 - [This is a demo code for mass key management of CKB addresses.](https://github.com/CipherWang/ckb-address-manager)
-- [CKB NFT Kabletop](https://github.com/duanyytop/ckb-nft-kabletop)
+- [CKB NFT Kabletop](https://github.com/ashuralyk/ckb-nft-kabletop)
+    - [Kabletop Demo](https://github.com/ashuralyk/kabletop-demo)
 - [Minimal CKB Sudt Dapp Demo](https://github.com/huwenchao/ckb-sudt-dapp-demo)
 - [A simplified ETH bridge contract demo to show how to mint SUDT on CKB](https://github.com/huwenchao/mint-sudt-demo)
 - [Nervos Layer 2 EVM bridged token transfer demo](https://github.com/Kuzirashi/polyjuice-sudt-proxy-transfer)
 - [This is a simple example to show how to use CKB crates in C via FFI](https://github.com/jjyr/ckb-ffi)
 - [Simple voting system on Nervos CKB](https://github.com/Kuzirashi/ckb-voting)
-- [Simplest CKB dApp with pw-core adopted](https://github.com/lay2dev/simplestdapp)
-- [Godwoken Polyjuice Compatibility Examples. Deploy Ethereum contracts (with compatibility modifications) to Nervos's Godwoken Polyjuice and interact with them using Ethereum toolchain.](https://github.com/honestgoing/godwoken-polyjuice-compatibility-examples)
+- [Simplest CKB dApp](https://github.com/liusong1111/simplestdapp)
+    - [Simplest CKB dApp with pw-core adopted](https://github.com/lay2dev/simplestdapp)
 - [Deploy Pancakeswap contracts to Godwoken](https://github.com/honestgoing/pancakeswap-contracts-godwoken)
-- [Godwoken Uniswap Example](https://github.com/huwenchao/godwoken-uniswap-example)
 - [Orange Wallet: Nervos CKB Wallet for Android & iOS. Build with Flutter](https://github.com/OrangeWallet)
     - [Generate CKB HD Wallet: A simple usage example](https://github.com/BaojunCZ/ckb_generate_hd)
 - [CKB Saifu. CKB wallet for minimalist using Swift. Abandoned](https://github.com/ashchan/ckb-saifu)
