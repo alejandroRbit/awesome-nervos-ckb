@@ -14,6 +14,7 @@ A collection of Nervos CKB Resources.
   - [On-Chain Scripts and Protocols](#on-chain-scripts-and-protocols)
   - [NFT Resources](#nft-resources)
   - [Experimental Projects and Demos](#experimental-projects-and-demos)
+  - [Oracles](#oracles)
   - [Other](#other)
 - [Dapps](#dapps)
   - [Tutorials](#tutorials)
@@ -69,6 +70,7 @@ A collection of Nervos CKB Resources.
 - [Lumos: Full Featured Dapp Framework for Javascript/Typescript](https://github.com/nervosnetwork/lumos)
 - [Capsule: Framework for Developing CKB Contracts in Rust](https://github.com/nervosnetwork/capsule)
 - [Tentacle: A multiplexed p2p network framework that supports custom protocols](https://github.com/nervosnetwork/tentacle)
+    - [Tentacle GO implementation](https://github.com/driftluo/tentacle-go)
 
 ### Ecosystem Projects
 - [ABC Wallet: Web Auth SDK -- In Development](https://talk.nervos.org/t/abc-wallet-another-ckb-sdk-and-ckb-web-auth/4285/2)
@@ -98,9 +100,9 @@ A collection of Nervos CKB Resources.
     - [Nerbot by x777. The Nerbot is a telegram NFT marketplace bot for the Nervos Network blockchain](https://github.com/x777/Nerbot)
 
 ### On-Chain Scripts and Protocols
-- [Anyone Can Pay: A lock script that allows cells to accept tokens from anyone](https://github.com/nervosnetwork/ckb-anyone-can-pay)
-- [CKB System Scripts: Hardcoded scripts in the Nervos CKB genesis block](https://github.com/nervosnetwork/ckb-system-scripts)
 - [CKB Production Scripts. CKB scripts used in production.](https://github.com/nervosnetwork/ckb-production-scripts)
+    - [Anyone Can Pay: A lock script that allows cells to accept tokens from anyone](https://github.com/nervosnetwork/ckb-production-scripts/blob/master/docs/ckb-anyone-can-pay.md)
+- [CKB System Scripts: Hardcoded scripts in the Nervos CKB genesis block](https://github.com/nervosnetwork/ckb-system-scripts)
 - [DCKB: Wrapper Token for DAO Deposited CKBytes](https://github.com/jjyr/DCKB)
 - [Growfi: On-chain User Defined Token Swap](https://talk.nervos.org/t/growfi-udt-swap/4382/8)
 - [Miscellanneous Scripts (Simple User Defined Token, HTLC, Dynamic Linking)](https://github.com/nervosnetwork/ckb-miscellaneous-scripts)
@@ -111,6 +113,7 @@ A collection of Nervos CKB Resources.
 - [RFC: Multi-Token Extensible NFT (Draft Spec)](https://talk.nervos.org/t/rfc-multi-token-extensible-nft-draft-spec/5019)
 - [Compact Extension for m-NFT Protocol: The Key to Mass Adoption](https://talk.nervos.org/t/compact-extension-for-m-nft-protocol-the-key-to-mass-adoption/6249)
     - [Compact m-NFT. A compact m-NFT contract for Nervos CKB](https://github.com/xcshuan/compact-mNFT)
+    - [The aggregator for CKB compact m-NFT](https://github.com/duanyytop/ckb-nft-aggregator)
     - [The sparse merkle tree data structure of compact-NFT](https://github.com/nervina-labs/compact-nft-smt)
     - [Example of CKB NFT SMT](https://github.com/duanyytop/nft-smt-example)
 - [CKB NFT Toolkit. A toolkit who provides methods to create, transfer, update and destroy issuer cells, class cells and NFT cells of Nervos CKB](https://github.com/duanyytop/ckb-nft-toolkit)
@@ -120,6 +123,7 @@ A collection of Nervos CKB Resources.
     - [The NFT Type Scripts implement of RFC: Multi-purpose NFT Draft Spec on Nervos CKB](https://github.com/nervina-labs/ckb-nft-scripts)
 - [NFT Open API Demo Python](https://github.com/nervina-labs/nft_open_api_demo_python)
 - [DID solution on Nervos based on mNFT protocol](https://talk.nervos.org/t/did-solution-on-nervos-based-on-mnft-protocol/5651)
+- [First 3D NFT on CKB](https://github.com/Keith-CY/first-3d-nft-on-ckb)
 
 ### Experimental Projects and Demos
 - [CKB Simple Account Layer](https://github.com/xxuejie/ckb-simple-account-layer)
@@ -128,12 +132,30 @@ A collection of Nervos CKB Resources.
 - [Minimal CKB Sudt Dapp Demo](https://github.com/huwenchao/ckb-sudt-dapp-demo)
 - [Godwoken Uniswap Example](https://github.com/huwenchao/godwoken-uniswap-example)
 - [A simplified ETH bridge contract demo to show how to mint SUDT on CKB](https://github.com/huwenchao/mint-sudt-demo)
-- [This is a simple example to show how to use CKB crates in C via FFI.](https://github.com/jjyr/ckb-ffi)
+- [This is a simple example to show how to use CKB crates in C via FFI](https://github.com/jjyr/ckb-ffi)
+- [Nervos Layer 2 EVM bridged token transfer demo](https://github.com/Kuzirashi/polyjuice-sudt-proxy-transfer)
+- [Simple voting system on Nervos CKB](https://github.com/Kuzirashi/ckb-voting)
+- [Simplest CKB dApp with pw-core adopted](https://github.com/lay2dev/simplestdapp)
+- [Godwoken Polyjuice Compatibility Examples. Deploy Ethereum contracts (with compatibility modifications) to Nervos's Godwoken Polyjuice and interact with them using Ethereum toolchain.](https://github.com/honestgoing/godwoken-polyjuice-compatibility-examples)
+- [Orange Wallet: Nervos CKB Wallet for Android & iOS. Build with Flutter](https://github.com/OrangeWallet)
+    - [Generate CKB HD Wallet: A simple usage example](https://github.com/BaojunCZ/ckb_generate_hd)
+- [Liquidable NervosDAO Contract.  Contains the code of a capsule project for liquidable DAO dapp's smart contract](https://github.com/RetricSu/liquidable-nervos-dao-contract)
+- [CKB Saifu. CKB wallet for minimalist using Swift. Abandoned](https://github.com/ashchan/ckb-saifu)
+- [A Swift package wrapping the modified blake2b C lib for CKB](https://github.com/ashchan/ckb-swift-blake2b)
+
+### Oracles
+- [Chainlink Oracles on Nervos Layer 2. A simple implementation of some of the Chainlink contracts on Nervos. This repository is using Ether.js + Hardhat + Typechain + TypeScript](https://github.com/Kuzirashi/chainlink-nervos)
+- [CKB Oracle Bridge. An oracle bridge fetching the oracle data of Band Protocol and Open Oracle from Nervos CKB and displaying oracle data with web pages](https://github.com/duanyytop/ckb-oracle-bridge)
+- [CKB Band Oracle. An oracle fetching oracle data from Band Protocol and posting to Nervos CKB](https://github.com/duanyytop/ckb-band-oracle)
+- [CKB Open Oracle. A poster fetching open oracle data from the providers (e.g. okex oracle and coinbase oracle) who support open oracle protocol and posting to Nervos CKB](https://github.com/duanyytop/ckb-open-oracle)
+    - [CKB Open Oracle Script. An oracle script on Nervos CKB whose data comes from the oracle providers who support open oracle protocol](https://github.com/duanyytop/ckb-open-oracle-script)
+- [Coinbase Oracle](https://github.com/duanyytop/coinbase-oracle)
 
 ### Other
 - [One-click way to create testnet and mainnet layer 2 accounts using MetaMask](https://dev.ckb.tools/create-layer2-account)
 - [Animagus: An accounting layer for Nervos](https://github.com/xxuejie/animagus)
     - [Mandrake: A GUI for Animagus](https://github.com/nervosnetwork/mandrake)
+    - [Animagus Swift Example](https://github.com/ashchan/mandrake-demo)
 - [CKB Explorer: A Nervos blockchain explorer](https://explorer.nervos.org/)
 - [CKB UDT CLI: Command line tool to create SUDT tokens](https://github.com/ququzone/ckb-udt-cli)
 - [Molecule: A serialization library for Rust](https://github.com/nervosnetwork/molecule)
@@ -167,6 +189,8 @@ A collection of Nervos CKB Resources.
 ### Example Dapps
 - [Gringotts: Token Renting](https://github.com/ashchan/gringotts)
 - [Token Mint: Issue Tokens in Browser](https://github.com/WilfredTA/token_mint)
+- [Gliaswap DEX AMM Template](https://github.com/orgs/glias/repositories)
+- [ThunderIssueSUDT: CKB Dapp For Manage Your SUDT. An open source GUI for easy issue SUDT](https://github.com/zmcNotafraid/thunder-issue-SUDT)
 
 
 
